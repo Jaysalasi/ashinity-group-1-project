@@ -1,16 +1,23 @@
 import './App.css'
-import Footer from './components/footer/Footer'
+import Header from './components/Header'
+import BrowseRangeComponent from './components/BrowseRangeComponent'
+import ProductsComponent from './components/ProductsComponent'
+import InspirationComponent from './components/InspirationComponent'
+import Hero from './components/Hero'
+import Footer from './components/Footer'
+import FurnitureComponent from './components/FurnitureComponent'
 
 function App() {
 
   return (
     <>
-      <div className="flex flex-col justify-between min-h-screen w-full">
-        <div></div>
-        <div>
-          <Footer />
-        </div>
-      </div>
+      <Header />
+      <Hero />
+      <BrowseRangeComponent />
+      <ProductsComponent />
+      <InspirationComponent />
+      <FurnitureComponent />
+      <Footer />
     </>
   )
 }
