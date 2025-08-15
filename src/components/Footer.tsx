@@ -18,10 +18,10 @@ const help: FootTypes[] = [
 
 const Footer = () => {
   return (
-    <footer className='fixed bottom-0 border-t-1 border-gray-400 w-full max-h-[505px] flex justify-center items-center sm:p-[50px] lg:p-[100px]'>
+    <footer className='fixed bottom-0 border-t-1 border-gray-400 w-full sm:max-h-[505px] flex justify-center items-center sm:p-[50px] lg:p-[100px]'>
       <div className="md:h-[419px] w-full flex flex-col justify-between">
         <section className="flex justify-around items-center ">
-          <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-2 gap-y-4 max-sm:mt-4">
+          <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-2 gap-y-4 max-sm:my-4">
             <div>
               <div className="mb-4">
                 <h2>Funiro</h2>
