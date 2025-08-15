@@ -1,4 +1,6 @@
 # Footer
 
-Tailwind CSS
-React-router-Dom
+**install the following packages**
+
+- Tailwind CSS
+- React-router-Dom
