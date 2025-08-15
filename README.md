@@ -1,4 +1,4 @@
-# Footer
+# Furniture Component
 
 ## Install the following packages
 
