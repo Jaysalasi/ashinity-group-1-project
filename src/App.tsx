@@ -1,8 +1,8 @@
-import { Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Contact from './Pages/Contact'
-import Shop from  './Pages/Shop'
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Shop from "./Pages/Shop";
 import Header from "./components/Header";
 import BrowseRangeComponent from "./components/BrowseRangeComponent";
 import ProductsComponent from "./components/ProductsComponent";
@@ -14,7 +14,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app" >
+    <div className="App">
       <Header />
       <main>
         <Routes>
