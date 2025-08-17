@@ -1,6 +1,22 @@
-# Furniture Component
+# Group 1
 
-## Install the following packages
+```makdown
 
-- Tailwind CSS
-- React-router-Dom
+members 
+name
+lastest commit
+
+
+```
+
+## Excel
+
+- furniture-section Merged into Master
+
+## Kabir
+
+-
+
+## Light
+
+-
