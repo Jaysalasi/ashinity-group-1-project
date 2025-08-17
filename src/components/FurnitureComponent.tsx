@@ -33,3 +33,5 @@ const FurnitureComponent = () => {
 }
 
 export default FurnitureComponent
+
+
