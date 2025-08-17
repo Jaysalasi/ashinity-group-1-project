@@ -19,7 +19,7 @@ const FurnitureComponent = () => {
             <div className='hidden md:grid place-content-center'>
               <img src={image.img40} alt='40' />
             </div>
-            <div className='hidden sm:grid content-start col-span-2 grid-cols-6 grid-rows-2 gap-4 justify-items-stretch bg-red-300'>
+            <div className='hidden sm:grid content-start col-span-2 grid-cols-6 grid-rows-2 gap-4 justify-items-stretch'>
               <img src={image.img43} alt='43' className='col-span-3 self-end' />
               <img src={image.img45} alt='45' className='col-span-3 place-self-end' />
               <img src={image.img41} alt='41' className='col-span-2' />
