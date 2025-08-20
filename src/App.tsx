@@ -4,17 +4,17 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Shop from "./Pages/Shop";
 import Header from "./components/Header";
-import BrowseRangeComponent from "./components/BrowseRangeComponent";
-import ProductsComponent from "./components/ProductsComponent";
+import BrowseRangeComponent from "./components/BrowseRangeComponent"; 
 import InspirationComponent from "./components/InspirationComponent";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import FurnitureComponent from "./components/FurnitureComponent";
 import "./App.css";
+import OurProducts from "./components/OurProducts";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <main>
         <Routes>
@@ -26,7 +26,7 @@ function App() {
       </main>
       <Hero />
       <BrowseRangeComponent />
-      <ProductsComponent />
+      <OurProducts />
       <InspirationComponent />
       <FurnitureComponent />
       <Footer />
