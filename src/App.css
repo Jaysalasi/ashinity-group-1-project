@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 #root {
   max-width: 1280px;
@@ -41,4 +42,34 @@
 
 .read-the-docs {
   color: #888;
+}
+
+@layer components {
+  .my-grid-layout {
+    @apply grid grid-cols-4 md:grid-cols-2 lg:grid-cols-4 gap-4 px-2 text-red-700 border-0;
+  }
+  .relative-image {
+    @apply relative bg-yellow-50;
+  }
+  .discount-display {
+    @apply box-border absolute top-0 right-0 rounded-full w-20 h-20  bg-red-400 text-lg font-sans  text-white flex justify-center items-center font-semibold;
+  }
+  .text-cost-actual {
+    @apply font-medium text-gray-800 font-sans  text-xl;
+  }
+  .text-cost-reduce {
+    @apply text-gray-400 line-through text-base;
+  }
+
+  .description-product {
+    @apply font-semibold text-gray-600 text-base;
+  }
+
+  .main-image {
+    @apply w-auto h-80;
+  }
+
+  @theme {
+    --color-regal-blue: #243c5a;
+  }
 }
