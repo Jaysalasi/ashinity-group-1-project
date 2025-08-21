@@ -16,7 +16,9 @@ lastest commit
 
 ## Kabir
 
--
+- Add Header with Nav links
+- Add Responsive Hero section
+- Add BrowseTheRange section
 
 ## Light
 
