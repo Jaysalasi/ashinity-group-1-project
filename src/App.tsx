@@ -4,13 +4,13 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Shop from "./Pages/Shop";
 import Header from "./components/Header";
-import BrowseRangeComponent from "./components/BrowseRangeComponent"; 
-import InspirationComponent from "./components/InspirationComponent";
+import BrowseRangeComponent from "./components/BrowseRangeComponent";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import FurnitureComponent from "./components/FurnitureComponent";
 import "./App.css";
 import OurProducts from "./components/OurProducts";
+import BeautifulRooms from "./components/BeautifulRooms";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <Hero />
       <BrowseRangeComponent />
       <OurProducts />
-      <InspirationComponent />
+      <BeautifulRooms />
       <FurnitureComponent />
       <Footer />
     </div>
@@ -35,4 +35,3 @@ function App() {
 }
 
 export default App;
-
